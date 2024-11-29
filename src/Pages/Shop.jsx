@@ -4,9 +4,14 @@ const Shop=()=>{
            <Hero/>
            <Popular/>
            <Offers/>
+           <NewCollections/>
+           <NewsLetter/>
+           
 
         </div>
-    
-}
+    )
+    }
+
+
 
 export default Shop

@@ -1,6 +1,11 @@
-const ShopCategory=()=>{
+import './ShopCategory.css'
+
+
+const ShopCategory=(props)=>{
+
+    const {all_product}=useContext(ShopContext);
     return(
-        <div>
+        <div className='shop-category'>
 
         </div>
     )
