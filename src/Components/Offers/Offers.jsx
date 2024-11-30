@@ -1,5 +1,5 @@
 import './Offers.css'
-import pic3 from '../Assets/pic3.jpg'
+import exclusive_image from '../Assets/exclusive_image.png'
 
 
 const Offers=()=>{
@@ -12,7 +12,7 @@ const Offers=()=>{
                 <button>Check Now</button>
             </div>
             <div className="offers-right">
-                <img src={pic3} alt=""></img>
+                <img src={exclusive_image} alt=""></img>
 
             </div>
         </div>

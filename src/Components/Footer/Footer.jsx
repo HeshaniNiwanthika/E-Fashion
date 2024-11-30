@@ -1,30 +1,35 @@
 import  './Footer.css'
-import pic1 from '../Assets/pic1.jpg'/*footer logo*/
-import pic3 from '../Assets/pic3.jpg'/*instergram <icon></icon>*/
-import pic1 from '../Assets/pic2.jpg'/*pinterster icon*/
-import pic2 from '../Assets/pic2.jpg'/*whatsapp icon*/
+import footer_logo from '../Assets/logo_big.png'/*footer logo*/
+import instagram_icon from '../Assets/instagram_icon.png'/*instergram <icon></icon>*/
+import pintester_icon from '../Assets/pintester_icon.png'/*pinterster icon*/
+import whatsapp_icon from '../Assets/whatsapp_icon.png'/*whatsapp icon*/
 
 
 const Footer =()=>{
     return(
         <div className='footer'>
-            <img  src={pic1} alt=""/>
+            <div className='footer-logo'>
+            <img src={footer_logo} alt=""/>
             <p>SHOPPER</p>
+            </div>
 
-            <ul className='footer-links">
+            <ul className="footer-links">
             <li>Company</li>
             <li>Products</li>
             <li>Offices</li>
-            <li>About></li>
+            <li>About</li>
             <li>Contact</li>
             </ul>
 
             <div className="footer-social-icon">
-                <div className=footer-icons-container">
-                    <img src={pic1} alt="" />
+                <div className="footer-icons-container">
+                    <img src={instagram_icon} alt="" />
                     </div>
                 <div className="footer-icons-container">
-                    <img src={pic2} alt="" />
+                    <img src={pintester_icon} alt="" />
+                 </div>
+                 <div className="footer-icons-container">
+                    <img src={whatsapp_icon} alt="" />
                  </div>
                  
                  </div>
@@ -38,8 +43,9 @@ const Footer =()=>{
 
 
 
-        </div>
         
+        
+
         
     )
 }

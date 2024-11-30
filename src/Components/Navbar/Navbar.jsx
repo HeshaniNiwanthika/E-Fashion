@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import pic1 from  '../Assets/pic1.jpg'
-
-import pic3 from '../Assets/pic3.jpg'
+import logo from  '../Assets/logo.png'
+import cart_icon from '../Assets/cart_icon.png'
 import piclogo from '../Assets/piclogo.png'
 
 
@@ -13,7 +12,7 @@ return (
     <div className="navbar">
 
       <div className="nav-logo">
-         <img src={piclogo} alt=""
+         <img src={logo} alt=""
                 height={100}
                 width={100}
          />
@@ -32,7 +31,7 @@ return (
             </ul>
             <div className="nav-login-cart">
               <Link to='/Login'><button>Login</button></Link>
-              <Link to='/Cart'> <img src={pic3} alt="">
+              <Link to='/Cart'> <img src={cart_icon} alt="">
                   height={100}
                   width={100}
                   </img></Link>

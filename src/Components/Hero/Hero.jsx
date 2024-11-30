@@ -1,7 +1,7 @@
 import './Hero.css'
-import pic2 from '../Assets/pic2.jpg'
-import pic1 from '../Assets/pic1.jpg'
-import pic3 from '../Assets/pic3.jpg'
+import hand_icon from '../Assets/hand_icon.png'
+import arrow_icon from '../Assets/arrow.png'
+import hero_image from '../Assets/hero_image.png'
 
 
 const Hero=()=>{
@@ -15,7 +15,7 @@ const Hero=()=>{
             <div>
                 <div className="hero-hand-icon">
                     <p>new</p>
-                    <img src={pic2} alt=""/>         
+                    <img src={hand_icon} alt=""/>         
                     </div>
                     <p>collection</p>
                     <p>for evryone</p>
@@ -23,11 +23,11 @@ const Hero=()=>{
                 </div>  
                 <div className="hero-latest-btn">
                      <div>Latest Collection</div>
-                     <img src={pic1} alt="" />                    
+                     <img src={arrow_icon} alt="" />                    
                       </div>
                 </div>  
                 <div className="hero-right">
-                    <img src={pic3} alt=""/>
+                    <img src={hero_image} alt=""/>
 
                 </div>
             </div>
