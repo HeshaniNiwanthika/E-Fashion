@@ -12,6 +12,8 @@ const Product=() =>{
         <div>
            <Breadcrum product={product}/> 
             <ProductDisplay product={product}/>
+            <DescriptionBox/>
+            <RelatedProducts/>
         </div>
     )
 }
