@@ -3,16 +3,16 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import {BrouserRouter,Routes,Route}from 'react-router-dom';
+import {BrouserRouter}from 'react-router-dom';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product'
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup'
-import Footer from './Components/Footer';
-import men_banner from '../Assets/men_banner';
-import women_banner from '../Assets/women_banner';
-import kid_banner from '../Assets/kid_banner'
+import Footer from './Components/Footer/Footer';
+import men_banner from './Components/Assets/banner_mens.png';
+import women_banner from './Components/Assets/banner_women.png';
+import kid_banner from './Components/Assets/banner_kids.png';
 
 
 function App() {

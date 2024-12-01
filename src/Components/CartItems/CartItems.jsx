@@ -36,7 +36,7 @@ const CartItems=()=>{
                                 
                         </div>
                             
-
+                            }
 
                     return null;
                             })}
@@ -74,7 +74,7 @@ const CartItems=()=>{
             </div>
             
                 
-
+                        
         
     )
 }

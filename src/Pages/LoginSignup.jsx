@@ -1,6 +1,6 @@
 import './CSS/LoginSignup.css'
 
-const LoginSignup =() =>{
+const LoginSignup =() =>{}
     return(
         <div classNmae='loginsignup'>
             <div className="loginsignup-container">
@@ -12,7 +12,7 @@ const LoginSignup =() =>{
                      
                 </div>
                 <button>Continue</button>
-                <p className="loginsignup-login"> Already have an account?<span>Login here</span></span></p>
+                <p className="loginsignup-login"> Already have an account?<span>Login here</span></p>
                 <div className="loginsignup-agree">
                     <input type="checkbox" name='' id='' />
                     <p>By continuing,i agree to the terms of use &privacy policy</p>
@@ -20,7 +20,8 @@ const LoginSignup =() =>{
                 </div>
 
         </div>
+        </div>
     )
-}
+
 
 export default LoginSignup
