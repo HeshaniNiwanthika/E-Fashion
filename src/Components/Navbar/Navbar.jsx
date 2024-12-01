@@ -7,7 +7,7 @@ import piclogo from '../Assets/piclogo.png'
 
 const Navbar=() => {
    const[menu,setMenu]=useState("shop");
-
+   const{getTotalCartItems}=useContext(ShopContext);
 return (
     <div className="navbar">
 
@@ -36,7 +36,7 @@ return (
                   width={100}
                   </img></Link>
             
-              <div className="nav-cart-count">0</div>
+              <div className="nav-cart-count">{getTotalCartItems()}</div>
             </div>
          </div>
     </div>
