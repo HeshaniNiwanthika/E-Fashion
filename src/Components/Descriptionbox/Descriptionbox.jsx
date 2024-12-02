@@ -1,4 +1,4 @@
-import './DescriptionBox.css'
+import './Descriptionbox.css'
 const DescriptionBox=()=>{
     return(
         <div className='descriptionbox'>

@@ -1,4 +1,5 @@
 import './Item.css'
+import {Link} from 'react-router-dom'
 
 const Item=(props)=>{/*data passed from a parent component to the Item component.*/
     return(

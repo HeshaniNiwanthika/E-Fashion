@@ -1,5 +1,6 @@
 import './RelatedProducts.css'
 import data_product from '../Assets/data'
+import Item from './Components/Item/item'
 
 const RelatedProducts=()=>{
     return(

@@ -1,6 +1,6 @@
 import './CSS/LoginSignup.css'
 
-const LoginSignup =() =>{}
+const LoginSignup =() =>{
     return(
         <div classNmae='loginsignup'>
             <div className="loginsignup-container">
@@ -21,7 +21,9 @@ const LoginSignup =() =>{}
 
         </div>
         </div>
+
     )
+}
 
 
 export default LoginSignup

@@ -1,10 +1,13 @@
 import Breadcrum from '../Components/Breadcrums/Breadcrum';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import{ShopContext} from '../Context/ShopContext'
+import { useContext,useParams } from 'react';
+import DescriptionBox from '../Components/Descriptionbox/Descriptionbox';
+import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
 
 const Product=() =>{
-    const {sll_product}=useContext(ShopContext);
-    const {prooductId}=useParams();
+    const {all_product}=useContext(ShopContext);
+    const {productId}=useParams();
     const product =all_product.find((e)=>e.id===Number(productId))
 
 

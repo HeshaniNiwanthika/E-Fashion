@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import './Navbar.css'
 import logo from  '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
+import {Link} from 'react-router-dom'
+import ProductDisplay from '../ProductDisplay/ProductDisplay';
 
 
+const RelatedProducts=()=>{
 
-const Navbar=() => {
-   const[menu,setMenu]=useState("shop");
-   const{getTotalCartItems}=useContext(ShopContext);
+
 return (
     <div className="navbar">
 
@@ -16,11 +17,9 @@ return (
                 height={100}
                 width={100}
          />
-         <img src={pic1} alt=""
-               height={100}
-               width={100}
          
-         />
+         
+      
 
          <p>SHOPPER</p>
             <ul className="nav-menu">
@@ -40,10 +39,11 @@ return (
             </div>
          </div>
     </div>
-   )
-
+   
+)
 }
-export default Navbar
+
+export default Navbar;
 
 
 
